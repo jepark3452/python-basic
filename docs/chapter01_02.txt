@@ -1,25 +1,31 @@
-Mac OS È¯°æ 
+Mac OS í™˜ê²½ 
 
-1. ÆÄÀÌ½ã ¼³Ä¡ Âü°í
+1. íŒŒì´ì¬ ì„¤ì¹˜ ì°¸ê³ 
 
 - https://dejavuqa.tistory.com/60
 - https://blockdmask.tistory.com/341
 - https://eunguru.tistory.com/28
 
 
-2. Atom Editor & ÆÄÀÌ½ã ¿¬µ¿ Âü°í
+2. Atom Editor & íŒŒì´ì¬ ì—°ë™ ì°¸ê³ 
 
 - https://ddolbah.tistory.com/5
 - https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/desc/atom_macos.md
 
-  (ÆÄÀÌ½ã ¼±ÅÃ ½ÇÇà)
+  (íŒŒì´ì¬ ì„ íƒ ì‹¤í–‰)
 - https://stackoverflow.com/questions/35546627/how-to-configure-atom-to-run-python3-scripts
 
-3. ÅÍ¹Ì³Î µî·Ï
+3. í„°ë¯¸ë„ ë“±ë¡
 
 - https://stackoverflow.com/questions/22390709/how-to-open-atom-editor-from-command-line-in-os-x
 
-4. ÇÑ±Û ±úÁü
+4. íŒŒì´ì¬ atom í•„ìˆ˜ í”ŒëŸ¬ê·¸ì¸ ì„¤ì¹˜
+
+- mac-os: Atom í´ë¦­ => Preferences... í´ë¦­ => Install í´ë¦­ 
+=> autocomplete-python ê²€ìƒ‰ => Install í´ë¦­
+=> script ê²€ìƒ‰ => Install í´ë¦­
+
+4. í•œê¸€ ê¹¨ì§
 
 import sys
 import io
@@ -27,8 +33,9 @@ import io
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 
-5. ÄÜ¼Ö ÆùÆ® »çÀÌÁî
+5. ì½˜ì†” í°íŠ¸ ì‚¬ì´ì¦ˆ
 
+- mac-os: Atom í´ë¦­ => Stylesheet... í´ë¦­ => ì•„ë˜ ë‚´ìš©ë§¨í•˜ë‹¨ì— ì¶”ê°€
 .script-view .line {
 	font-size: 16px;
 }
